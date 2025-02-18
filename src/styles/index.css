@@ -9,3 +9,57 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border: 1px solid black;
+}
+
+.semaforo {
+  width: 30vh;
+  height: 60vh;
+  background-color: black;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.linea {
+  width: 5vh;
+  height: 20vh;
+  background-color: black;
+  position: fixed;
+  top: 10vh;
+}
+.rojo,
+.amarillo,
+.verde {
+  width: 18vh; /* Ajusta el tamaño de las luces */
+  height: 18vh;
+  border-radius: 50%; /* Para hacerlas circulares */
+}
+
+.rojo {
+  background-color: red;
+  box-shadow: 0 0 15px 5px white;
+}
+
+.amarillo {
+  background-color: yellow;
+  box-shadow: 0 0 15px 5px white;
+}
+
+.verde {
+  background-color: green;
+  box-shadow: 0 0 15px 5px white;
+}
