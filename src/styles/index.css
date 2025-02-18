@@ -51,15 +51,16 @@
 
 .rojo {
   background-color: red;
-  box-shadow: 0 0 15px 5px white;
 }
 
 .amarillo {
   background-color: yellow;
-  box-shadow: 0 0 15px 5px white;
 }
 
 .verde {
   background-color: green;
+}
+
+.sombra {
   box-shadow: 0 0 15px 5px white;
 }
